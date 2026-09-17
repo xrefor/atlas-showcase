@@ -7,6 +7,9 @@
 - [Omarchy](https://github.com/omacom/omarchy): the Linux desktop shown in the captures.
 - [Aether](https://github.com/bjarneo/aether.nvim): the Neovim theme used with the
   ATLAS palette in the Python demonstration.
+- [NymVPN](https://nym.com/): the decentralized VPN developed by
+  [Nym Technologies SA](https://nym.com/trust-center) in Switzerland. ATLAS
+  supplies the optional terminal panel shown in the showcase.
 - IBM Plex, Nerd Fonts, Foot, tmux, Yazi, and NymVPN are separate projects under
   their respective licenses. Their application source and font files are not
   distributed by this website.
