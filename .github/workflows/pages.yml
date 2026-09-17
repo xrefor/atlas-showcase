@@ -8,7 +8,8 @@ on:
       - assets/atlas.svg
       - backgrounds/**
       - docs/media/**
-      - tools/build_site.py
+      - tools/**
+      - tests/**
       - .github/workflows/pages.yml
   workflow_dispatch:
 
@@ -29,6 +30,8 @@ jobs:
           persist-credentials: false
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Test responsive asset staging
+        run: python3 -m unittest discover -s tests -v
       - name: Stage showcase and validate links
         run: python3 tools/build_site.py
       - name: Upload site

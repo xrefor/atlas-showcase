@@ -10,7 +10,7 @@ The interactive showcase for ATLAS, an appearance bundle for Omarchy.
 
 **[Explore ATLAS ↗](https://xrefor.github.io/atlas-showcase/)**
 
-[![Ember Seam wallpaper](backgrounds/atlas-ember-seam.png)](https://xrefor.github.io/atlas-showcase/)
+[![Ember Seam wallpaper](docs/media/previews/atlas-ember-seam-1080.webp)](https://xrefor.github.io/atlas-showcase/)
 
 This repository contains the website and its media. The theme source remains
 private; installation commands and technical guides linked from the site require
@@ -28,6 +28,13 @@ python3 -m http.server 8000 --directory dist/site --bind 127.0.0.1
 
 The builder stages only files referenced by the page. The GitHub Actions workflow
 deploys that output to Pages when the website changes on `main`.
+
+Wallpaper thumbnails and the large preview use responsive WebP images; opening
+the wallpaper still downloads the original PNG. To regenerate the committed
+previews, install Pillow with WebP support and run `python3 tools/build_previews.py`.
+The generator uses Lanczos resizing and WebP quality 85, without enlarging the
+originals. Keep the `srcset` widths in `index.html` aligned with the generated
+dimensions. Normal site builds do not require Pillow.
 
 Original ATLAS artwork and palette: ATLAS contributors. Website source is
 distributed under the [MIT license](LICENSE).
