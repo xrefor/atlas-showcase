@@ -4,21 +4,22 @@
 
 # ATLAS showcase
 
-**Carbon surfaces. Warm ivory text. Signal orange.**
+**Carbon. Ivory. Signal.**
 
-The interactive showcase for ATLAS, an appearance bundle for Omarchy.
+The interactive showcase for ATLAS, a cohesive theme and terminal workspace for Omarchy.
 
 **[Explore ATLAS ↗](https://xrefor.github.io/atlas-showcase/)**
 
-[![Ember Seam wallpaper](docs/media/previews/atlas-ember-seam-1080.webp)](https://xrefor.github.io/atlas-showcase/)
+[![The ATLAS desktop and terminal workspace](docs/media/atlas-desktop.png)](https://xrefor.github.io/atlas-showcase/)
 
 This repository contains the website and its media. The public
 [theme repository](https://github.com/xrefor/omarchy-atlas-theme) contains the
 installation guide, technical documentation, and
 [release downloads](https://github.com/xrefor/omarchy-atlas-theme/releases).
 
-The demo shows the desktop, opening Python in Neovim, file browsing, and a brief
-NymVPN panel. All terminal scenes use the normal **9 pt** font size.
+The 20-second overview shows Neovim, Yazi and the Agents and NymVPN panels.
+All terminal scenes use the normal **9 pt** font size; panel captures use clearly
+labelled demonstration data. Both lock-screen styles have native animated previews.
 
 ## Development
 
