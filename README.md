@@ -12,9 +12,10 @@ The interactive showcase for ATLAS, an appearance bundle for Omarchy.
 
 [![Ember Seam wallpaper](docs/media/previews/atlas-ember-seam-1080.webp)](https://xrefor.github.io/atlas-showcase/)
 
-This repository contains the website and its media. The theme source remains
-private; installation commands and technical guides linked from the site require
-repository access.
+This repository contains the website and its media. The public
+[theme repository](https://github.com/xrefor/omarchy-atlas-theme) contains the
+installation guide, technical documentation, and
+[release downloads](https://github.com/xrefor/omarchy-atlas-theme/releases).
 
 The demo shows the desktop, opening Python in Neovim, file browsing, and a brief
 NymVPN panel. All terminal scenes use the normal **9 pt** font size.
